@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+</head>
+<body>
+    <main>
+        <form action="Aryan's Folder/action">
+        <div>
+            <span><label for="name">First Name:</label></span>
+            <input type="text" name="username_firstname" id="name" placeholder="First Name" required maxlength="20" minlength="5">
+            <span><label for="lastname">Last Name</label></span>
+            <input type="text" placeholder="Last Name" name="lastname" id="lastname" required maxlength="20" minlength="5">
+        </div>
+
+        <div>
+            <span><label for="choose">Select a Race:</label></span>
+            <div>
+                <input type="radio" name="radioo" value="Fun Run 5K" id="er">
+                <label for="er">Fun Run 5K</label>
+            </div>
+            <div>
+                <input type="radio" name="radioo" value="Half Marathon" id="ep">
+                <label for="ep">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" name="radioo" value="Full Marathon" id="et">
+                <label for="et">Full Marathon</label>
+            </div>
+        </div>
+        <div>
+            <span><label for="email">Email</label></span>
+            <input type="email" placeholder="Email" id="email" name="email" required maxlength="30" minlength="10">
+
+            <span><label for="password">Password</label></span>
+            <input type="password" placeholder="Password" id="password" name="password" required maxlength="30" minlength="7">
+        </div>
+            <span><label for="age">Select Age Group:</label></span>
+            <select id="age" name="age group">
+                <option value="none">Choose</option>
+                <option value="under 18">Under 18</option>
+                <option value="between 20-30">between 20-30</option>
+                <option value="between 31-40">between 31-40</option>
+                <option value="between 41-50">between 41-50</option>
+                <option value="between 51-60">between 51-60</option>
+                <option value="between 61-70">between 61-70</option>
+                <option value="between 71-80">between 71-80</option>
+                <option value="between 81-90">between 81-90</option>
+                
+            </select>
+        <div>
+            <span><button>Register!</button></span>
+        </div>
+        </form>
+    </main>
+</body>
+</html>
+
